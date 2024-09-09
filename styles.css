@@ -464,12 +464,14 @@ padding-left:4vw;
     background-color: #f7f5f2;
     /* margin-right: 150px; */
     padding: 40px 15vw;
+    z-index: -999;
 }
 .b-container{
     background-color: #fff;
     padding: 10px;
     margin-right: 150px;
     padding-bottom: 40px;
+    z-index: -999;
    
 }
 
@@ -568,6 +570,7 @@ padding-left:4vw;
 
 /* Curriculum Section */
 .curriculum-section {
+    z-index: -999;
     background-color: #ffffff;
     padding: 40px 15vw;
 }
@@ -577,6 +580,7 @@ padding-left:4vw;
     margin: 0 auto;
     text-align: center;
     margin-right: 150px;
+    z-index: -999;
 }
 
 .curriculum-section h2 {
@@ -670,6 +674,7 @@ padding-left:4vw;
     justify-content: center;
     padding: 40px 20px;
     background-color: #f7f5f2;
+    z-index: -999;
 
 }
 
@@ -834,7 +839,7 @@ body {
     flex-direction: column;
     align-items: start;
     overflow: hidden;
-    z-index: 999;
+    z-index: -999;
     
 }
 
